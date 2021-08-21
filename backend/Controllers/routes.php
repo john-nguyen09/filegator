@@ -267,4 +267,26 @@ return [
             'read', 'write',
         ],
     ],
+    [
+        'route' => [
+            'GET', '/onedrive/authorise', '\Filegator\Controllers\OneDriveController@authorise',
+        ],
+        'roles' => [
+            'admin',
+        ],
+        'permissions' => [
+            'write',
+        ],
+    ],
+    [
+        'route' => [
+            'GET', '/onedrive/redirect', '\Filegator\Controllers\OneDriveController@redirect',
+        ],
+        'roles' => [
+            'admin',
+        ],
+        'permissions' => [
+            'write',
+        ],
+    ],
 ];

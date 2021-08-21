@@ -12,6 +12,7 @@ namespace Filegator\Services\Storage;
 
 use Filegator\Services\Service;
 use League\Flysystem\Filesystem as Flysystem;
+use Filegator\Container\Container;
 
 class Filesystem implements Service
 {
@@ -21,6 +22,13 @@ class Filesystem implements Service
 
     protected $path_prefix;
 
+    protected $container;
+
+    public function __construct(Container $container)
+    {
+        $this->container = $container;
+    }
+
     public function init(array $config = [])
     {
         $this->separator = $config['separator'];
@@ -29,7 +37,7 @@ class Filesystem implements Service
         $adapter = $config['adapter'];
         $config = isset($config['config']) ? $config['config'] : [];
 
-        $this->storage = new Flysystem($adapter(), $config);
+        $this->storage = new Flysystem($adapter($this->container), $config);
     }
 
     public function createDir(string $path, string $name)
