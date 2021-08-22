@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98825f6e211e4823db37f86e30b4cc9a",
+    "content-hash": "2520e2a185eea9a26cce70993d97ed5d",
     "packages": [
         {
             "name": "dibi/dibi",
@@ -670,61 +670,6 @@
                 }
             ],
             "time": "2021-05-28T08:32:12+00:00"
-        },
-        {
-            "name": "nicolasbeauvais/flysystem-onedrive",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nicolasbeauvais/flysystem-onedrive.git",
-                "reference": "38ad35f2bbe4efb8f41391ef6ebba057f95b8f47"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nicolasbeauvais/flysystem-onedrive/zipball/38ad35f2bbe4efb8f41391ef6ebba057f95b8f47",
-                "reference": "38ad35f2bbe4efb8f41391ef6ebba057f95b8f47",
-                "shasum": ""
-            },
-            "require": {
-                "league/flysystem": "^1.0",
-                "microsoft/microsoft-graph": "^1.0",
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "NicolasBeauvais\\FlysystemOneDrive\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Beauvais",
-                    "email": "nicolasbeauvais1@gmail.com",
-                    "homepage": "http://nicolas-beauvais.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Flysystem Adapter for the OneDrive API",
-            "homepage": "https://github.com/nicolasbeauvais/flysystem-onedrive",
-            "keywords": [
-                "Flysystem",
-                "OneDrive",
-                "api",
-                "flysystem-onedrive"
-            ],
-            "support": {
-                "issues": "https://github.com/nicolasbeauvais/flysystem-onedrive/issues",
-                "source": "https://github.com/nicolasbeauvais/flysystem-onedrive/tree/master"
-            },
-            "abandoned": true,
-            "time": "2017-08-12T15:18:08+00:00"
         },
         {
             "name": "nikic/fast-route",

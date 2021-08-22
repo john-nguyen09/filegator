@@ -19,8 +19,7 @@
         "rakit/validation": "^1.1",
         "league/flysystem": "^1.1",
         "league/flysystem-ziparchive": "^1.0",
-        "krizalys/onedrive-php-sdk": "^2.7",
-        "nicolasbeauvais/flysystem-onedrive": "^1.0"
+        "krizalys/onedrive-php-sdk": "^2.7"
     },
     "authors": [
         {
